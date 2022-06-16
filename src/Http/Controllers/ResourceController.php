@@ -1,8 +1,7 @@
 <?php
 
-namespace OsTheNeo\NovaFields\Http\Controllers;
+namespace Benjacho\BelongsToManyField\Http\Controllers;
 
-use Laravel\Nova\Fields\Field;
 use Laravel\Nova\Http\Requests\NovaRequest;
 
 class ResourceController {

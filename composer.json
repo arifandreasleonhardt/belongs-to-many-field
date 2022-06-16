@@ -1,5 +1,5 @@
 {
-    "name": "ostheneo/nova-fields",
+    "name": "benjacho/belongs-to-many-field",
     "description": "A Laravel Nova field.",
     "keywords": [
         "laravel",
@@ -10,15 +10,21 @@
         "php": "^8.1",
         "laravel/nova": "^4.0"
     },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://nova.laravel.com"
+        }
+    ],	
     "autoload": {
         "psr-4": {
-            "OsTheNeo\\NovaFields\\": "src/"
+            "Benjacho\\BelongsToManyField\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "OsTheNeo\\NovaFields\\FieldServiceProvider"
+                "Benjacho\\BelongsToManyField\\FieldServiceProvider"
             ]
         }
     },

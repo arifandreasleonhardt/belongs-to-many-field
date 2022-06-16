@@ -12,8 +12,21 @@ Belongs To Many field to represent many to many relationship in field. This Fiel
 
 ### Installation
 
+```composer.json
+...
+   "repositories": [
+        ...
+		{
+            "type": "vcs",
+            "url": "https://github.com/arifandreasleonhardt/belongs-to-many-field"
+        },
+		...
+    ],
+...
+```
+
 ```bash
-composer require ostheneo/nova-fields
+composer require benjacho/belongs-to-many-field
 ```
 
 ### Usage
@@ -23,7 +36,7 @@ In the resource you need to pass:
 - Method make ('label', 'many to many relationship function name', 'Nova Resource Relationship')
 
 ```php
-use OsTheNeo\NovaFields\BelongsToManyField;
+use Benjacho\\BelongsToManyField\\NovaFields\BelongsToManyField;
 
 public function fields(Request $request){
     return [

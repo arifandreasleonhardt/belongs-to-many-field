@@ -1,6 +1,6 @@
 <?php
 
-namespace OsTheNeo\NovaFields;
+namespace Benjacho\BelongsToManyField;
 
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 
